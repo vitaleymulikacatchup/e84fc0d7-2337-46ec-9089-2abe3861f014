@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -9,9 +9,9 @@ import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCar
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import { Coffee, Heart, Leaf, Home, UtensilsCrossed, Star, MapPin } from "lucide-react";
+import { Coffee, Heart, Leaf, UtensilsCrossed, Star, MapPin } from "lucide-react";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <ThemeProvider
       defaultButtonVariant="icon-arrow"
@@ -69,8 +69,7 @@ export default function Home() {
             },
             {
               title: "Cozy Atmosphere",
-              description: "Perfect space for work, meetings, or relaxation",
-              icon: Home
+              description: "Perfect space for work, meetings, or relaxation"
             }
           ]}
           imageSrc="https://images.pexels.com/photos/942801/pexels-photo-942801.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
